@@ -2,33 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Social links profile</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <!-- Outer -->
+  <div class="outer">
+    <!-- Inner -->
+    <div class="inner">
+      <!-- Profile Container -->
+      <div class="profile-container">
+        <!-- Profile Image Container -->
+        <div class="profile-image-container">
+          <img src="/assets/images/avatar-jessica.jpeg" alt="" aria-hidden="true" class="profile-image">
+        </div>
+        <!-- Profile Details Container -->
+        <div class="profile-details-container">
+          <!-- Profile Name -->
+          <h1 class="profile-name">
+            Jessica Randall
+          </h1>
+          <!-- Profile Location -->
+          <h2 class="profile-location">
+            London, United Kingdom
+          </h2>
+        </div>
+        <!-- Profile Quote -->
+        <div class="profile-quote-container">
+          <p class="profile-quote">"Front-end developer and avid reader."</p>
+        </div>
+      </div>
+      <!-- Profile Links Container -->
+      <div class="profile-buttons-container">
+        <!-- GitHub -->
+        <a href="https://github.com/justinnvera/Social-Links-Profile" target=”_blank class="button-link"><button class="profile-github-button profile-button">GitHub</button></a>
+        <!-- Frontend Mentor -->
+        <a href="https://www.frontendmentor.io/profile/justinnvera" target=”_blank class="button-link"><button class="profile-frontend-mentor-button profile-button">Frontend Mentor</button></a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com" target=”_blank class="button-link"><button class="profile-linkedin-button profile-button">LinkedIn</button></a>
+        <!-- Twitter -->
+        <a href="https://twitter.com" target=”_blank class="button-link"><button class="profile-twitter-button profile-button">Twitter</button></a>
+        <!-- Instagram -->
+        <a href="https://instagram.com" target=”_blank class="button-link"><button class="profile-instgram-button profile-button">Instagram</button></a>
+      </div>
+    </div>
   </div>
 </body>
 </html>
